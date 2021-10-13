@@ -1,0 +1,117 @@
+body {
+
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+/* INICIO NAVBAR */
+
+#padre {
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    font-family: 'DM Serif Display', serif;
+    align-items: center;
+}
+
+.hija0 {
+    font-size: 30px;
+    margin-left: 30px;
+    
+}
+
+.hijas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+  
+    margin-left: 500px;
+
+}
+
+
+.hija1 {
+    background-color: lightsalmon;
+    padding: 10px 30px;
+    order: 1;
+
+}
+
+.hija2 {
+    background-color: lightblue;
+    padding: 10px 30px;
+    order: 2;
+
+}
+
+.hija3 {
+    background-color: lightgreen;
+    padding: 10px 30px;
+    order: 3;
+
+}
+
+.menu {
+    background-color: lightgrey;
+    order: 4;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* FIN NAVBAR */
+
+/* INICIO BODY */
+
+.portada{
+    background-color: aquamarine;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+   height: 800px;
+   margin-top: 80px;
+}
+
+.vacio{
+    background-color: coral;
+}
+.retrato1{
+    background-color: bisque;
+    justify-content: flex-end;
+    width: 450px;
+    margin-left: 150px;  
+}
+
+#vid-retrato1 {
+    height:75%;
+    filter: grayscale(100%);
+    justify-content: left;
+}
+
+.retrato2{
+    background-color: yellow;
+    width: 300px;
+    margin-left:60px;
+}
+
+#vid-retrato2{
+    height:75%;
+    filter: grayscale(100%) 
+}
+
+.msje-principal{
+    margin-top: 400px;
+}
+
+h1{
+    font-size: 200px;
+    font-family: 'DM Serif Display', serif;
+}
